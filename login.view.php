@@ -3,7 +3,7 @@ require 'delovi/navbar.php'; ?>
 
 <div class="container">
     <div class="row">
-        <div class="col-6 offset-3">
+        <div class="col-6 offset-3" style="margin-top: 50px;">
             <form action ="login.php" method="POST">
                 <input type="email" name="email" placeholder="email" class="form-control"> <br>
                 <input type="password" name="password" placeholder="password" class="form-control"> <br>

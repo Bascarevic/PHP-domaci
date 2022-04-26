@@ -4,7 +4,7 @@ require_once 'delovi/navbar.php';
 
 <div class="container">
     <div class="row">
-        <div class="col-6 offset-3">
+        <div class="col-6 offset-3" style="margin-top:20px">
             <form action="register.php" method="POST">
                 <input type="text" name="name" placeholder="Ime" class="form-control"> <br>
                 <input type="text" name="surname" placeholder="Prezime" class="form-control"> <br>

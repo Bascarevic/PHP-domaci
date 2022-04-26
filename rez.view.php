@@ -12,7 +12,8 @@ require 'delovi/navbar.php'; ?>
                 <div class="col-4">
                     <div class="card" mb-2 mt-2>
                         <div class="card-header">
-                            <a href="zanr.php?zanr=<?php echo $fil['zanr']?>" class="btn btn secondary btn-sm" class="btn btn-secondary btn-sm"><?php echo $fil['zanr'] ?></a>
+                            <!-- <a href="zanr.php?zanr=< echo $fil['zanr']?>" class="btn btn secondary btn-sm" class="btn btn-secondary btn-sm">< echo $fil['zanr'] ?></a> -->
+                            <h5 class="btn btn secondary btn-sm" class="btn btn-secondary btn-sm"><?php echo $fil['zanr'] ?></h5>
                         </div>
                         <div class="card-body">
                             <h5><?php echo $fil['naziv']; ?></h5>

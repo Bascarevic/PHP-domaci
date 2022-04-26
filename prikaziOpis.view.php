@@ -4,9 +4,10 @@ require 'delovi/navbar.php'; ?>
 <div class="row">
 <div class="col">
 <h1><?php echo  $movie['naziv']?></h1> <br>
+<h5>Opis:</h5> 
 <p><?php echo  $movie['opis']?></p>
-<p><?php echo  $movie['reditelj']?></p>
-<p><?php echo  $movie['glumci']?></p>
+<p>Reditelj: <?php echo  $movie['reditelj']?></p>
+<p>Glumci: <?php echo  $movie['glumci']?></p>
 </div>
 </div>
 </div>

@@ -1,0 +1,16 @@
+.meni{
+    margin-top: 30px;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+}
+:hover {
+    color: var(--hover-color);
+  }
+a{
+    color: black;
+    text-decoration: none;
+}
+body{
+    background-image: url("traka.png");
+}

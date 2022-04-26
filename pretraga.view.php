@@ -1,7 +1,7 @@
 <?php  require_once 'delovi/vrh.php';
 require_once 'delovi/navbar.php';?>
  <br>
-   <div class="row">
+   <div class="row" >
     <div class="col-md-4">
     <select name="genre_list" id="genre_list"  class="form-control">
         <option value="Akcija">Akcija</option>
