@@ -15,3 +15,5 @@ require 'delovi/navbar.php'; ?>
 </div>   
 
 <?php require_once 'delovi/dno.php'; ?>
+
+<!-- Postavi lepo alert ovde i obrisi iz korisnik->logUser !!!!!!!-->

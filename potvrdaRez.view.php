@@ -1,9 +1,9 @@
 <?php require 'delovi/vrh.php';
 require 'delovi/navbar.php'; ?>
 
-<div class="col-4">
-                    <div class="card" mb-2 mt-2>
-                        <div class="card-header">
+<div class="col-6 col-md-4" style="margin-left: 100px;">
+                    <div class="card" mb-2 mt-2 style="margin-top: 30px;">
+                        <div class="card-header" style="background-color: #e3dfdc;">
                             <a href="zanr.php?zanr=<?php echo $fil['zanr']?>" class="btn btn secondary btn-sm" class="btn btn-secondary btn-sm"><?php echo $fil['zanr'] ?></a>
                         </div>
                         <div class="card-body">
