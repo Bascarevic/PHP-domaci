@@ -26,9 +26,21 @@ require_once 'delovi/navbar.php';
         var surname = document.getElementById("surname").value;
         var email = document.getElementById("email").value;
         var password = document.getElementById("password").value;
-
-        if(name=="" || surname=="" || email=="" || password==""){
-            alert("Neispravno uneti podaci!")
+        
+        if(name==""){
+            alert("Unesite ime!")
+            return false;
+        }
+        if(surname==""){
+            alert("Unesite prezime!")
+            return false;
+        }
+        if(email==""){
+            alert("Unesite email!")
+            return false;
+        }
+        if(password==""){
+            alert("Unesite lozinku!")
             return false;
         }
         return true;

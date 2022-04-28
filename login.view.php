@@ -4,9 +4,9 @@ require 'delovi/navbar.php'; ?>
 <div class="container">
     <div class="row">
         <div class="col-6 offset-3" style="margin-top: 50px;">
-            <form action ="login.php" method="POST">
-                <input type="email" name="email" placeholder="email" class="form-control"> <br>
-                <input type="password" name="password" placeholder="password" class="form-control"> <br>
+            <form action ="login.php" method="POST" onsubmit="return check()">
+                <input type="email" name="email" placeholder="email" class="form-control" id="email"> <br>
+                <input type="password" name="password" placeholder="password" class="form-control" id="password"> <br>
 
                 <button type="submit" class="form-control btn" style="background-color:#C0C0C0" name="loginBtn">Login</button>
             </form>
@@ -16,4 +16,20 @@ require 'delovi/navbar.php'; ?>
 
 <?php require_once 'delovi/dno.php'; ?>
 
-<!-- Postavi lepo alert ovde i obrisi iz korisnik->logUser !!!!!!!-->
+
+<script>
+    function check() {
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+
+        if(email==""){
+            alert("Unesite email!")
+            return false;
+        }
+        if(password==""){
+            alert("Unesite lozinku!")
+            return false;
+        }
+        return true;
+    }
+</script>
