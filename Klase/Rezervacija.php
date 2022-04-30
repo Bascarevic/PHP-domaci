@@ -33,6 +33,21 @@ class Rezervacija{
         }
         
     }
+
+    public function ukloniRezervaciju($id_film){
+        $id_korisnik=$_SESSION['id'];
+        $statement="DELETE FROM rezervacije WHERE id_korisnik='$id_korisnik' AND id_film='$id_film'";
+
+        $query = mysqli_query(connection(), $statement);
+        
+        if($query){
+       return true;
+        }else{
+      
+       return false;
+        }
+    }
 }
+
 
 ?>

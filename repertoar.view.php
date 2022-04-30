@@ -36,4 +36,3 @@ require 'delovi/navbar.php'; ?>
 </div>
 
 <?php require 'delovi/dno.php'; ?>
-<!-- class="btn btn-secondary btn-sm" -->

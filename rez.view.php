@@ -19,6 +19,9 @@ require 'delovi/navbar.php'; ?>
                             <h5><?php echo $fil['naziv']; ?></h5>
                             <a href="prikaziOpis.php?id= <?php echo $fil['id']?>" class="btn btn-light btn-sm">Detaljnije</a>
                         </div>
+                        <div class="card-footer" style="background-color: #e3dfdc;"> 
+                            <a href="ukloniRez.php?id=<?php echo $fil['id']?>" class="btn btn-light btn-sm" id="nije_potvrda">Ukloni</a>
+                        </div>
                     </div>
                     <br>
                 </div>
